@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Config variables
     const rows = 10;
     const cols = 10;
-    const imageUrl = 'FLOWER.jpg'; // Replace with your bouquet image URL
+    const imageUrl = 'PIC0.jpeg'; // Replace with your bouquet image URL
     const confettiColors = ['#e63946', '#457b9d', '#ffb703', '#2a9d8f'];
     let confetti = [];
   
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Close lightbox
     closeLightbox.addEventListener('click', () => {
       lightbox.classList.add('hidden');
-      window.location.href = 'https://youtube.com'; // Redirect after closing
+      window.location.href = 'https://www.youtube.com/watch?v=GJCj4lfraDc'; // Redirect after closing
     });
   
     // Event listener for reveal button
